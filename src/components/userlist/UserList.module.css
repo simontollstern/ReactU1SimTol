@@ -1,0 +1,25 @@
+.userlist ul{
+  list-style: none;
+}
+
+.userlist li{
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  border-bottom: 4px solid rgba(0,0,0,0.15);
+  margin-bottom: 10px;
+}
+
+.userlist li:first-child:active{
+  border: none;
+  margin-top: 4px;
+}
+
+.userlist li:not(:first-child):active{
+  border: none;
+  margin-top: 14px;
+}
+
+.userlist button{
+  background-color: hsl(200, 50%, 50%);
+}
